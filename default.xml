@@ -6,6 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/Freescale" name="freescale"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
+  <remote fetch="https://github.com/zeppi-lin" name="zeppi"/>
 
   <project remote="yocto" revision="rocko" name="poky" path="sources/poky"/>
   <project remote="yocto" revision="rocko" name="meta-freescale" path="sources/meta-freescale"/>
@@ -20,5 +21,8 @@
   <project remote="freescale" revision="rocko" name="meta-freescale-3rdparty" path="sources/meta-freescale-3rdparty"/>
   <project remote="freescale" revision="rocko" name="meta-freescale-distro" path="sources/meta-freescale-distro"/>
   <project remote="freescale" revision="rocko" name="Documentation" path="sources/Documentation"/>
+
+  <project remote="zeppi" revision="master" name="meta-fit" path="sources/meta-fit"/>
+  <project remote="zeppi" revision="master" name="meta-phor" path="sources/meta-phor"/>
 
 </manifest>
